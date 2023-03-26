@@ -12,6 +12,9 @@ public class TestNGDemo1 {
     @Test(dataProvider = "dataProvider")
     public void test(CaseInfo caseInfo){
         System.out.println(caseInfo.getAge());
+        System.out.println("提交代码");
+
+
         System.out.println(caseInfo.getName());
     }
     @DataProvider
