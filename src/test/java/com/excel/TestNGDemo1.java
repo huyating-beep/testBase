@@ -13,6 +13,7 @@ public class TestNGDemo1 {
     public void test(CaseInfo caseInfo){
         System.out.println(caseInfo.getAge());
         System.out.println("提交代码");
+        System.out.println("再次提交");
 
 
         System.out.println(caseInfo.getName());
