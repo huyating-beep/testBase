@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="商城用例" verbose="1" >
+    <test name="用户模块" >
+        <classes>
+            <class name="com.testng.ParameterDemo" />
+            <parameter name="version" value="18"></parameter>
+
+        </classes>
+    </test>
+
+</suite>
